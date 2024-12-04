@@ -1,14 +1,11 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { HStack } from "@chakra-ui/react";
+import Title from "@/components/Title";
+import ChakraBox from "./Layout/ChakraBox";
 
 export default function Home() {
   return (
-    <div>
-      <HStack>
-        <Button>Click me</Button>
-        <Button>Click me</Button>
-      </HStack>
-    </div>
+    <>
+      <Title component="BOX" />
+      <ChakraBox />
+    </>
   );
 }
