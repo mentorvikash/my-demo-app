@@ -1,13 +1,16 @@
 import Title from "@/components/Title";
-// import ChakraBox from "./Layout/ChakraBox";
-import ChakraCenter from "./Layout/ChakraCenter";
+import DecorativeBox from "./DecorativeBox";
 
 export default function Home() {
   return (
     <>
-      <Title component="CENTER" />
-      {/* <ChakraBox /> */}
-      <ChakraCenter />
+      <Title component="CONTAINER" />
+      <DecorativeBox>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        consectetur, tortor in lacinia eleifend, dui nisl tristique nunc. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur,
+        tortor in lacinia eleifend, dui nisl tristique nunc.
+      </DecorativeBox>
     </>
   );
 }
