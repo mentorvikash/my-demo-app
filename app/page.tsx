@@ -1,16 +1,29 @@
-import Title from "@/components/Title";
-import DecorativeBox from "./DecorativeBox";
+// import ChakraBox from "./Layout/ChakraBox";
+// import ChakraContainer from "./Layout//ChakraContainer";
+// import ChakraFlex from "./Layout//ChakraFlex";
+// import ChakraFloat from "./Layout//ChakraFloat";
+// import ChakraGrid from "./Layout//ChakraGrid";
+// import ChakraGroup from "./Layout//ChakraGroup";
+// import ChakraSimpleGrid from "./Layout//ChakraSimpleGrid";
+// import ChakraStack from "./Layout//ChakraStack";
+// import ChakraTheme from "./Layout//ChakraTheme";
+// import ChakraBleed from "./Layout//ChakraBleed";
+// import ChakraAspectRatio from "./Layout//ChakraAspectRatio";
 
 export default function Home() {
   return (
     <>
-      <Title component="CONTAINER" />
-      <DecorativeBox>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        consectetur, tortor in lacinia eleifend, dui nisl tristique nunc. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur,
-        tortor in lacinia eleifend, dui nisl tristique nunc.
-      </DecorativeBox>
+      {/* <ChakraBox />
+      <ChakraContainer />
+      <ChakraFlex />
+      <ChakraFloat />
+      <ChakraGrid />
+      <ChakraGroup />
+      <ChakraSimpleGrid />
+      <ChakraStack />
+      <ChakraTheme />
+      <ChakraBleed />
+      <ChakraAspectRatio /> */}
     </>
   );
 }

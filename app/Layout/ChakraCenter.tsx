@@ -13,9 +13,9 @@ import { LuArrowRight, LuPhone } from "react-icons/lu";
 function ChakraCenter() {
   return (
     <>
-      {/* <Square borderWidth={15}>
+      <Square borderWidth={15}>
         <Box>Let's take this text to center.</Box>
-      </Square> */}
+      </Square>
       <HStack>
         <Center w={"40px"} h={"40px"} bg={"tomato"} color={"white"}>
           <LuPhone />
